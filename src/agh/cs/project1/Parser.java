@@ -21,33 +21,27 @@ public class Parser {
         try {
             for (int i = 0; i < args.length; i++) {
                 switch (args[i]) {
-                    case "-file":
                     case "-f":
                         options.put(Elements.File, args[i+1]); i++;
                         break;
                     case "-st":
                         options.put(Elements.TOC, ""); break;
-                    case "-art":
                     case "-a":
                         options.put(Elements.Article, args[i+1]); i++;
                         break;
                     case "-az":
-                    case "-artz":
                         options.put(Elements.ArticleRange, args[i+1] + " " + args[i+2]);
                         i += 2;
                         break;
-                    case "-roz":
                     case "-r":
                         options.put(Elements.Chapter, args[i+1]); i++;
                         break;
                     case "-u":
                         options.put(Elements.Paragraph, args[i+1]); i++;
                         break;
-                    case "-pkt":
                     case "-p":
                         options.put(Elements.Point, args[i+1]); i++;
                         break;
-                    case "-lit":
                     case "-l":
                         options.put(Elements.Letter, args[i+1]); i++;
                         break;
