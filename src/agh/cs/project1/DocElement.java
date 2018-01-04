@@ -1,33 +1,17 @@
 package agh.cs.project1;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
-/**
- * Created by Aga on 30.12.2017.
- */
+import java.util.*;
+
 public class DocElement {
-    private String identifier;
-    private Elements type;
-    private String title;
-    private List<String> subtitles = new LinkedList<>();
-    private List<String> content = new LinkedList<>();
-    private List<DocElement> children = new ArrayList<>();
+    private final String identifier;
+    private String content;
+    private Map<String, DocElement> children = new LinkedHashMap<>();
 
-    public DocElement(String id, Elements type) {
+
+    public DocElement(String id) {
         this.identifier = id;
-        this.type = type;
-    }
-
-    public DocElement(String id, String title, Elements type) {
-        this.title = title;
-        this.identifier = id;
-        this.type = type;
-    }
-
-    public String getTitle() {
-        return title;
+        this.content = "";
     }
 
     public String getId() {
@@ -35,34 +19,37 @@ public class DocElement {
     }
 
     public void addChild(DocElement child) {
-        children.add(child);
+        children.put(child.getId(), child);
     }
 
-    public void writeChildren() {
-        for (DocElement el : children) {
-            System.out.println("    " + el.getId()+ " " + el.getTitle());
-        }
+    DocElement getChild(String index) {
+        return children.get(index);
     }
 
-    public List<DocElement> getChildren() {
-        return this.children;
+    public LinkedList<DocElement> getChildren() {
+        return new LinkedList(this.children.values());
     }
 
     public void addContent(String line) {
-        content.add(line);
+        StringBuilder builder = new StringBuilder(content);
+        if (!content.equals("")) builder.append("\n");
+        builder.append(line);
+        this.content = builder.toString();
     }
 
-    public void addSubtitle(String line) {
-        subtitles.add(line);
+    public String getContent() {
+        return content;
     }
 
-    public void viewContent() {
-        for(String el : content) System.out.println("   " + el);
+    public void printContent() {
+        System.out.println(content);
     }
 
-    public void viewSubtitles() {
-        for (String el : subtitles) {
-            System.out.println("    " + el);
+    public void deepPrinter(DocElement el) {
+        el.printContent();
+        for (DocElement child : el.getChildren()) {
+            if (child!= null) deepPrinter(child);
+
         }
     }
 

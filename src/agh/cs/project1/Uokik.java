@@ -1,24 +1,28 @@
 package agh.cs.project1;
 
-import javax.print.Doc;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
-/**
- * Created by Aga on 02.01.2018.
- */
+
 public class Uokik extends Document {
-    private List<DocElement> sections = new ArrayList<>();
+    public Map<String, DocElement> sections = new LinkedHashMap<>();
 
     public void addSection(DocElement section) {
-        this.sections.add(section);
+        this.sections.put(section.getId(), section);
     }
-    public void getTOC() {
-        for (int i = 0; i < sections.size(); i++) {
-            System.out.println(sections.get(i).getId() + " " + sections.get(i).getTitle());
-            sections.get(i).writeChildren();
-        }
+
+    public DocElement getSection(String index) {
+        return this.sections.get(index);
+    }
+
+    public LinkedList<DocElement> getSections() {
+        return new LinkedList<>(this.sections.values());
+    }
+
+    public DocElement getChapter(String indexOfSec, String indexOfChap) {
+        DocElement section = this.getSection(indexOfSec);
+        DocElement chapterOrArt = section.getChild(indexOfChap);
+        if (chapterOrArt.getContent().startsWith("Rozdział")) return chapterOrArt;
+        return null;
     }
 
 }
