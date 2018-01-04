@@ -135,7 +135,8 @@ public class Printer {
         }
 
         if((options.get(Elements.Letter) != null && options.get(Elements.Point) == null) ||
-                (options.get(Elements.Paragraph) != null && options.get(Elements.Article) == null)) {
+                (options.get(Elements.Paragraph) != null && options.get(Elements.Article) == null) ||
+                (options.get(Elements.Point) != null && options.get(Elements.Article) == null)) {
             throw new IllegalArgumentException("Wprowadzono nieprawidłowe części składowe.");
         }
 
