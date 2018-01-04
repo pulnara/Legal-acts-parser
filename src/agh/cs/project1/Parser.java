@@ -55,7 +55,7 @@ public class Parser {
             }
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Podano nieprawidłowe argumenty. Spróbuj jeszcze raz.");
-            return;
+            System.exit(3);
         }
 
     }

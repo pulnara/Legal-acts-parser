@@ -114,6 +114,18 @@ public class Printer {
     }
 
     public void verifyArgs () throws IllegalArgumentException {
+        if (options.size() == 0) throw new IllegalArgumentException("Nie podano argumentów.");
+
+        if (options.size() < 2) throw new IllegalArgumentException("Podano za mało argumentów.");
+
+        if (options.get(Elements.TOC) != null && options.get(Elements.Section) != null && options.size() > 3) {
+            throw new IllegalArgumentException("Podano za dużo argumentów.");
+        }
+
+        if (options.get(Elements.TOC) != null && options.get(Elements.Section) == null && options.size() > 2) {
+            throw new IllegalArgumentException("Podano za dużo argumentów.");
+        }
+
         if (options.get(Elements.Invalid) != null) {
             throw new IllegalArgumentException("W linii komend pojawił się nieprawidłowy argument.");
         }
