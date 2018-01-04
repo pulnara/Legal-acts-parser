@@ -21,6 +21,7 @@ public class Uokik extends Document {
     public DocElement getChapter(String indexOfSec, String indexOfChap) {
         DocElement section = this.getSection(indexOfSec);
         DocElement chapterOrArt = section.getChild(indexOfChap);
+        if (chapterOrArt == null) return null;
         if (chapterOrArt.getContent().startsWith("Rozdział")) return chapterOrArt;
         return null;
     }

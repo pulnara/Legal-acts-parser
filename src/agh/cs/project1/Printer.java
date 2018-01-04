@@ -132,11 +132,6 @@ public class Printer {
             throw new IllegalArgumentException("W Konstytucji nie występują działy.");
         }
 
-        if ((constitution && options.get(Elements.Article) != null && Integer.parseInt(options.get(Elements.Article)) > 243)
-                || (!constitution && options.get(Elements.Article) != null && Integer.parseInt(options.get(Elements.Article)) > 138)) {
-            throw new IllegalArgumentException("Artykuł o takim numerze nie występuje.");
-        }
-
         if (!constitution && options.get(Elements.Chapter) != null && options.get(Elements.Section) == null) {
             throw new IllegalArgumentException("Nie podano działu, z którego ma zostać wypisany rozdział.");
         }
