@@ -1,5 +1,5 @@
 Arguments:
--f <PATH>                       file path, f.e. -f C:\Users\Aga\Desktop\Project1\src\agh\cs\project1\uokik.txt
+-f <PATH>   file path, f.e. -f C:\Users\Aga\Desktop\Project1\src\agh\cs\project1\uokik.txt
 
 + To view table of content: 
             -st                   view table of contents
