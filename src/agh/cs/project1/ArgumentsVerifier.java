@@ -50,7 +50,6 @@ public class ArgumentsVerifier {
         }
 
         return constitution;
-
     }
 
     private boolean isConstitution(String path) throws IllegalArgumentException {

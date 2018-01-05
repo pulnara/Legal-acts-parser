@@ -30,5 +30,4 @@ public class Document {
         if (s > e) return false;
         return true;
     }
-
 }

@@ -50,7 +50,6 @@ public class Organizer {
                 chapter.addContent(title.toString());
                 if (section != null) section.addChild(chapter);
                 else ((Constitution) document).addChapter(chapter);
-
             }
 
             else if (plik.get(i).startsWith("Art.")) {
@@ -100,7 +99,6 @@ public class Organizer {
                             // punkt należy do ustępu
                             paragraph.addChild(point);
                         }
-
                     }
 
                     else if (Character.isLetter(plik.get(i).charAt(0)) &&
@@ -122,10 +120,7 @@ public class Organizer {
                     i++;
                 }
                 i--;
-
             }
-
-
         }
         return document;
     }
@@ -165,6 +160,4 @@ public class Organizer {
         //System.out.println(key);
         return key;
     }
-
-
 }

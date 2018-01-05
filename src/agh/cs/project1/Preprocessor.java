@@ -23,12 +23,11 @@ public class Preprocessor {
         BufferedReader br;
         br = new BufferedReader(new FileReader(path));
         for (String line = br.readLine(); line != null; line = br.readLine()) {
-            if(!line.startsWith("©Kancelaria Sejmu") && !line.equals("2017-06-28") && !line.equals("2009-11-16") )plik.add(line);
+            if(!line.startsWith("©Kancelaria Sejmu") && !line.equals("2017-06-28") && !line.equals("2009-11-16")) plik.add(line);
         }
 
         this.connectLines();
         this.separateArt(isUokik);
-
     }
 
     private void connectLines() throws IOException {
@@ -58,7 +57,4 @@ public class Preprocessor {
             }
         }
     }
-
-
-
 }
