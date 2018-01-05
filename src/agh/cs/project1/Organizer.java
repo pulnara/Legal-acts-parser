@@ -61,6 +61,7 @@ public class Organizer {
                 article.addContent(plik.get(i));
                 document.addArticle(article);
                 if (chapter != null) chapter.addChild(article);
+                else section.addChild(article);
                 i++;
 
 

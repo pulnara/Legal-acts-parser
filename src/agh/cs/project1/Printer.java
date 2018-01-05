@@ -116,11 +116,12 @@ public class Printer {
         if(((Uokik) doc).getSection(id) != null) {
             ((Uokik) doc).getSection(id).printContent();
             LinkedList<DocElement> chapters = ((Uokik) doc).getSection(id).getChildren();
-            for (int i = 0; i < chapters.size(); i++) {
-                chapters.get(i).printContent();
+            if (chapters.get(0).getContent().startsWith("Rozdział")) {
+                for (int i = 0; i < chapters.size(); i++) {
+                    chapters.get(i).printContent();
+                }
+                //System.out.println("...........................................");
             }
-            //System.out.println("...........................................");
-
         }
         else {
             throw new IllegalArgumentException("Dział o numerze: " + id + " nie występuje.");

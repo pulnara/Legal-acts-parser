@@ -29,8 +29,8 @@
       <file leaf-file-name="Organizer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Organizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="62" column="63" lean-forward="false" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
+            <state relative-caret-position="359">
+              <caret line="63" column="45" lean-forward="false" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
               <folding>
                 <element signature="e#167#168#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -56,8 +56,8 @@
       <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="92" column="45" lean-forward="false" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
+            <state relative-caret-position="291">
+              <caret line="123" column="13" lean-forward="false" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,7 +102,7 @@
       <file leaf-file-name="DocElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/DocElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="748">
               <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
               <folding>
                 <element signature="e#605#606#0" expanded="true" />
@@ -180,12 +180,12 @@
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Main.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Parser.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Constitution.java" />
-        <option value="$PROJECT_DIR$/src/agh/cs/project1/Printer.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Uokik.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Preprocessor.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Document.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/DocElement.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/ArgumentsVerifier.java" />
+        <option value="$PROJECT_DIR$/src/agh/cs/project1/Printer.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Organizer.java" />
       </list>
     </option>
@@ -286,7 +286,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="agh.cs.project1.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-f C:\Users\Aga\Desktop\Project1\src\agh\cs\project1\uokik.txt  -st -dz IIIA" />
+      <option name="PROGRAM_PARAMETERS" value="-f C:\Users\Aga\Desktop\Project1\src\agh\cs\project1\uokik.txt  -dz IX" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -826,16 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="92" column="45" lean-forward="false" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Uokik.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -875,19 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/DocElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/ArgumentsVerifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -912,10 +889,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/DocElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="123" column="13" lean-forward="false" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Organizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="62" column="63" lean-forward="false" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
+        <state relative-caret-position="359">
+          <caret line="63" column="45" lean-forward="false" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
           <folding>
             <element signature="e#167#168#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
