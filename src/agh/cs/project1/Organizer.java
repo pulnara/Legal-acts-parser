@@ -81,7 +81,8 @@ public class Organizer {
                     }
 
                     else if (Character.isDigit(plik.get(i).charAt(0)) &&
-                            (plik.get(i).charAt(1) == ')' || plik.get(i).charAt(2) == ')')) {
+                            (plik.get(i).charAt(1) == ')' || plik.get(i).charAt(2) == ')' ||
+                                    (plik.get(i).charAt(3) == ')' && Character.isLetter(plik.get(i).charAt(2))))) {
                         // mamy punkt
                         int counter = plik.get(i).indexOf(')');
                         key = plik.get(i).substring(0, counter);

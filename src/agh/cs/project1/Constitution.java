@@ -1,6 +1,5 @@
 package agh.cs.project1;
 
-
 import java.util.*;
 
 public class Constitution extends Document {
