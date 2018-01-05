@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Organizer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Organizer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Organizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="161" column="5" lean-forward="false" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="62" column="63" lean-forward="false" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
               <folding>
                 <element signature="e#167#168#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -127,7 +127,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArgumentsVerifier.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArgumentsVerifier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/ArgumentsVerifier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -183,10 +183,10 @@
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Printer.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Uokik.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Preprocessor.java" />
-        <option value="$PROJECT_DIR$/src/agh/cs/project1/Organizer.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/Document.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/DocElement.java" />
         <option value="$PROJECT_DIR$/src/agh/cs/project1/ArgumentsVerifier.java" />
+        <option value="$PROJECT_DIR$/src/agh/cs/project1/Organizer.java" />
       </list>
     </option>
   </component>
@@ -286,7 +286,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="agh.cs.project1.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-f C:\Users\Aga\Desktop\Project1\src\agh\cs\project1\uokik.txt -st" />
+      <option name="PROGRAM_PARAMETERS" value="-f C:\Users\Aga\Desktop\Project1\src\agh\cs\project1\uokik.txt  -st -dz IIIA" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -595,7 +595,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -826,18 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -876,17 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Organizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="161" column="5" lean-forward="false" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Document.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -919,6 +896,29 @@
             <element signature="imports" expanded="true" />
             <element signature="e#311#312#0" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/cs/project1/Organizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="62" column="63" lean-forward="false" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
