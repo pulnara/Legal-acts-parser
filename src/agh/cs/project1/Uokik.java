@@ -4,7 +4,7 @@ import java.util.*;
 
 
 public class Uokik extends Document {
-    public Map<String, DocElement> sections = new LinkedHashMap<>();
+    private Map<String, DocElement> sections = new LinkedHashMap<>();
 
     public void addSection(DocElement section) {
         this.sections.put(section.getId(), section);

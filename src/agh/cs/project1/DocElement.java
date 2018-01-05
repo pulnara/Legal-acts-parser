@@ -21,7 +21,7 @@ public class DocElement {
         children.put(child.getId(), child);
     }
 
-    DocElement getChild(String index) {
+    public DocElement getChild(String index) {
         return children.get(index);
     }
 

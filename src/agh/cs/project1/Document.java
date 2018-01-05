@@ -3,7 +3,7 @@ package agh.cs.project1;
 import java.util.*;
 
 public class Document {
-    protected Map<String, DocElement> articles = new LinkedHashMap<>();
+    private Map<String, DocElement> articles = new LinkedHashMap<>();
 
     public void addArticle(DocElement article) {
         articles.put(article.getId(), article);
