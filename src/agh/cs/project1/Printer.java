@@ -42,6 +42,10 @@ public class Printer {
             this.writeChapterUokik(doc, options.get(Elements.Section), options.get(Elements.Chapter));
         }
 
+        else if (!constitution && options.get(Elements.Section) != null) {
+            this.writeSection(doc, options.get(Elements.Section));
+        }
+
         else if (options.get(Elements.ArticleRange) != null) {
             this.writeArticleRange(doc, options.get(Elements.ArticleRange));
         }
@@ -160,6 +164,16 @@ public class Printer {
             }
             System.out.println("...........................................");
 
+        }
+        else {
+            throw new IllegalArgumentException("Dział o numerze: " + id + " nie występuje.");
+        }
+    }
+
+    private void writeSection(Document doc, String id) throws  IllegalArgumentException {
+        if(((Uokik) doc).getSection(id) != null) {
+            DocElement section = ((Uokik) doc).getSection(id);
+            section.deepPrinter(section);
         }
         else {
             throw new IllegalArgumentException("Dział o numerze: " + id + " nie występuje.");
